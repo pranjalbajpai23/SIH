@@ -1,0 +1,72 @@
+*{
+    margin: 0;
+    width: 100%;
+    text-decoration: none;
+   
+}
+.nav{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+.logo{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding-top:1rem;
+}
+.logo img{
+    width: 9rem;
+}
+.login{
+    width: 10%;
+}
+.login button{
+    background-color: transparent;
+    border: 0;
+}
+.indCol{
+    position: absolute;
+    top: -0;
+    z-index: -1;
+    width: 30rem;
+    right: 0;
+}
+.wlc{
+    display:flex;
+    flex-direction: row;
+    align-items: center;
+}
+.wlcTxt{
+    padding-left: 5rem;
+}
+.wlcTxt> :first-child{
+    font-weight: 700;
+    font-size: 4rem;
+}
+.wlcTxt p{
+    font-weight: 200;
+    font-size: 1.5rem;
+    padding-bottom: 3rem;
+}
+.started{
+    display: flex;
+    flex-direction: row;
+    width: 40%;
+    align-items: center;
+    font-size: 1.5rem;
+    background-color: #9BDCEB;
+    border: solid black 2px;
+    border-radius: 15px;
+}
+.started img{
+    width: 20%;
+}
+.wlcImg{
+    display: flex;
+    justify-content:center;
+}
+.wlcImg img{ 
+    width: 50%;
+}
