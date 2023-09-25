@@ -1,0 +1,29 @@
+.nav{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+.logo{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding-top:1rem;
+}
+.logo img{
+    width: 9rem;
+}
+.login{
+    width: 10%;
+}
+.login button{
+    background-color: transparent;
+    border: 0;
+}
+.indCol{
+    position: absolute;
+    top: -0;
+    z-index: -1;
+    width: 30rem;
+    right: 0;
+}
