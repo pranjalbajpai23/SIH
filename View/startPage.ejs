@@ -6,25 +6,61 @@
     <title>start</title>
     <link rel="stylesheet" href="./css/nav.css">
     <link rel="stylesheet" href="./css/start.css">
+    <link rel="stylesheet" href="./css/suggestion.css">
 </head>
 <body>
     <!-- Nav bar -->
     <nav class="nav">
         <div class="logo">
             <img src="./images/SIH-Logo.png" alt="">
-            <!-- <img src="./images/emblem-dark.png" alt=""> -->
+            <img src="./images/Ministry_of_Law_and_Justice.png" alt="">
             <img src="./images/swach-bharat.png" alt="">
         </div>
         <div class="login">
+            <a href="">Community forum</a>
             <a href=""><button>Login</button></a>
         </div>
     </nav>
     <img class="indCol" src="./images/nav_bg.png" alt="">
     
     <!-- Query Part -->
-    <div class="heading">Tell us what brings you here ?</div>
+    <div class="query-part">
+        <div class="heading">Tell us what brings you here ?</div>
+        <textarea class="query" id="" cols="30" rows="10"></textarea>
+        <a href="#heading" ><button class="submitQuery"> <span>Next </span> <img src="./images/arrow.png" alt=""></button></a>
+    </div>
+    <!-- Suggested part -->
+    <div class="suggestion-part">
+        <div class="heading" id="heading">Suggested Documents</div>
+        <div class="suggestedDoc">
+            <!-- Dynamic Rendering of HTML -->
 
+                <!-- Fake suggestion -->
+                <div class="suggestion">
+                    <div class="layer">
+                        <h3>The Dataset</h3>
+                        <p>The dataset used in this project consists of retinal fundus images of patients with various eye diseases such as age-related macular degeneration (AMD), diabetic retinopathy (DR), cataract, pathological myopia, and glaucoma. The images were acquired from different sources and preprocessed for uniformity.</p>
+                        <a href="#"><i class="fa-sharp fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                
+                <div class="suggestion">
+                    <div class="layer">
+                        <h3>The Dataset</h3>
+                        <p>The dataset used in this project consists of retinal fundus images of patients with various eye diseases such as age-related macular degeneration (AMD), diabetic retinopathy (DR), cataract, pathological myopia, and glaucoma. The images were acquired from different sources and preprocessed for uniformity.</p>
+                        <a href="#"><i class="fa-sharp fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                <div class="suggestion">
+                    <div class="layer">
+                        <h3>The Dataset</h3>
+                        <p>The dataset used in this project consists of retinal fundus images of patients with various eye diseases such as age-related macular degeneration (AMD), diabetic retinopathy (DR), cataract, pathological myopia, and glaucoma. The images were acquired from different sources and preprocessed for uniformity.</p>
+                        <a href="#"><i class="fa-sharp fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
 
+        </div>
+    </div>
 
 </body>
 </html>
